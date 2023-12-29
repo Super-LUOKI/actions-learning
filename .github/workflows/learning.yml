@@ -15,3 +15,5 @@ jobs:
       - name: Run the scripts
         run: |
           ./one.sh
+        env:
+          luoking: luoking_var_value
